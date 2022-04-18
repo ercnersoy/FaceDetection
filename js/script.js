@@ -1,6 +1,4 @@
 $(document).ready(function(){
-    
-
     $('#image').faceDetection({
         complete : function(faces){
             for(let i = 0; i < faces.length; i++){
